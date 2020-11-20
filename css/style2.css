@@ -12,7 +12,7 @@
     }
 .section2{
         width: 98%;
-        padding-bottom: 30px;
+        padding-bottom: 80px;
         margin: 0 auto;
         display: flex;
         justify-content: center;
@@ -31,7 +31,7 @@
         height: 130px;
     }
     .menu{
-        padding-top: 30px;
+        padding-top: 60px;
         width: 70%;
         margin: 0 auto;
         display: flex;
@@ -51,10 +51,7 @@
         width: 250px;
         height: 120px;
     }
-    .logo2{
-        width: 125px;
-        height: 120px;
-    }
+   
     .logo3{
         
         width: 225px;
@@ -101,14 +98,11 @@
         width: 950px;
         height: 200px;
     }
-    .logo2{
-        width: 250px;
-        height: 230px;
-    }
+   
     .logo3{
         
-        width: 450px;
-        height: 80px;
+        width: 950px;
+        height: 100px;
         margin: 0 auto;
         display: flex;
     }  
@@ -119,28 +113,28 @@
    
     
     .link1{
-        width: 140px;
-        height: 130px;
-    }
-    .link1:hover{
-        width: 160px;
-        height: 150px;
-    }
-    .link2{
-        width: 160px;
-        height: 130px;
-    }
-    .link2:hover{
-        width: 180px;
-        height: 150px;
-    }
-     .link3 {
-        width: 180px;
-        height: 130px;
-    }
-    .link3:hover {
         width: 200px;
         height: 150px;
+    }
+    .link1:hover{
+        width: 220px;
+        height: 170px;
+    }
+    .link2{
+        width: 200px;
+        height: 150px;
+    }
+    .link2:hover{
+        width: 220px;
+        height: 170px;
+    }
+     .link3 {
+        width: 230px;
+        height: 150px;
+    }
+    .link3:hover {
+        width: 250px;
+        height: 170px;
     }
     
     

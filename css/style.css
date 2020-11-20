@@ -5,33 +5,29 @@
     
 }
 
-body{
-    background: rgb(66,147,212);
-background: radial-gradient(circle, rgb(178, 211, 238) 0%, rgb(116, 161, 224) 100%);
-  
-}
-
 .section1{
     width: 98%;
     padding: 0px;
     display: flex;
-    
+    justify-content: space-between;
     }
+.section2{
+        width: 98%;
+        padding: 0px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+ }
+
 
     .insignia{
         width: 70px;
        height: 70px;
     }
         
-    .titulo{
-        padding-left: 150px;
-        width: 850px;
-        height: 80px;
-    }
-    .section2 div{
-        padding: 10px;
-        margin: 0 auto;
-        display: block;
+    .ib{
+        width: 70px;
+        height: 70px;
     }
     .menu{
         padding-top: 30px;
@@ -44,19 +40,9 @@ background: radial-gradient(circle, rgb(178, 211, 238) 0%, rgb(116, 161, 224) 10
     padding: 20px;
 }
 
-.section2{
-    margin-top: -0px;
-    display: flex;
-    
-}
-
 
 @media (min-width:320px){
-    .section2 img{
-      padding-top: 90px;
-        width: 430px;
-        height: 400px;
-    }
+   
     .menu div {
         margin-top: 0px;
         padding: 10px;
@@ -79,29 +65,22 @@ background: radial-gradient(circle, rgb(178, 211, 238) 0%, rgb(116, 161, 224) 10
 }
 @media(min-width:768px){
    
-    .section2 img{
-        padding-top: 70px;
-          width: 650px;
-          height: 550px;
-      }
+ 
     
 }
 
 @media(min-width:1024px){
-    .titulo2 img{
-        padding-top: 10px;
-        width: 730px;
-        height: 260px;
+       
+    .logo1{
+        width: 630px;
+        height: 330px;
     }
-    .imagen img{
-        padding-top: 10px;
-        width: 230px;
-        height: 260px;
-    }
-
+    .logo2{
+        width: 330px;
+        height: 330px;
+    } 
    
-   
-    .menu div {
+     .menu div {
         margin-top: -30px;
         padding: 5px;
         display: flex;

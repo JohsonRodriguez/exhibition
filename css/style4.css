@@ -63,13 +63,17 @@
 }
 
 @media (min-width:320px) {
+    .section2 {
+        padding-top: 120px;
+        padding-bottom: 0px;
+    }
     .logo1 {
-        width: 250px;
-        height: 120px;
+        width: 350px;
+        height: 100px;
     }
     .logo3 {
-        width: 225px;
-        height: 40px;
+        width: 350px;
+        height: 50px;
         margin: 0 auto;
         display: flex;
     }
@@ -82,12 +86,12 @@
         justify-content: center;
     }
     .link1 {
-        width: 100px;
-        height: 90px;
+        width: 200px;
+        height: 130px;
     }
     .link2 {
-        width: 100px;
-        height: 90px;
+        width: 200px;
+        height: 130px;
     }
     .link3 {
         width: 150px;
@@ -98,6 +102,10 @@
 @media(min-width:768px) {}
 
 @media(min-width:1024px) {
+    .section2 {
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
     .logo1 {
         width: 900px;
         height: 150px;

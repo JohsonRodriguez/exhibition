@@ -63,8 +63,15 @@
 }
 
 @media (min-width:320px) {
+    .section2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .section2 div {
+        margin-top: 0px;
+    }
     .logo1 {
-        width: 250px;
+        width: 400px;
         height: 120px;
     }
     .logo3 {
@@ -82,22 +89,29 @@
         justify-content: center;
     }
     .link1 {
-        width: 100px;
-        height: 90px;
+        width: 150px;
+        height: 60px;
     }
     .link2 {
-        width: 100px;
-        height: 90px;
+        width: 150px;
+        height: 60px;
     }
     .link3 {
         width: 150px;
-        height: 90px;
+        height: 60px;
     }
 }
 
 @media(min-width:768px) {}
 
 @media(min-width:1024px) {
+    .section2 {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .section2 div {
+        margin-top: -150px;
+    }
     .logo1 {
         width: 990px;
         height: 350px;
